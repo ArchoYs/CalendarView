@@ -1,3 +1,18 @@
+### dependencies
+```
+  allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```
+  dependencies {
+	        implementation 'com.github.ArchoYs:CalendarView:Tag'
+	}
+```
 # CalenderView
 
 An elegant CalendarView on Android platform.
